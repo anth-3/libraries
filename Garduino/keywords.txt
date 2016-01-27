@@ -1,0 +1,94 @@
+###############################################################################
+# Syntax Coloring Map for Garduino Library                                    #
+###############################################################################
+
+###############################################################################
+# Datatypes (KEYWORD1)                                                        #
+###############################################################################
+
+Garduino                KEYWORD1
+DHT                     KEYWORD1
+InterruptLock           KEYWORD1
+Hygrometer              KEYWORD1
+Photosensor             KEYWORD1
+
+###############################################################################
+# Methods and Functions (KEYWORD2)                                            #
+###############################################################################
+
+begin                   KEYWORD2
+pulse                   KEYWORD2
+resetLCD                KEYWORD2
+
+convertC2F              KEYWORD2
+convertF2C              KEYWORD2
+computeHeatIndex        KEYWORD2
+readTemperature         KEYWORD2
+readHumidity            KEYWORD2
+read                    KEYWORD2
+expectPulse             KEYWORD2
+getStatus               KEYWORD2
+
+readHygrometer          KEYWORD2
+processReading          KEYWORD2
+
+readPhotocell           KEYWORD2
+
+###############################################################################
+# Constants (LITERAL1)                                                        #
+###############################################################################
+
+ADD_BIT                 LITERAL1
+REMOVE_BIT              LITERAL1
+HAS_BIT                 LITERAL1
+
+GARDUINO_DEBUG          LITERAL1
+DEBUG_PRINTER           LITERAL1
+DEBUG_PRINT             LITERAL1
+DEBUG_PRINTLN           LITERAL1
+GARDUINO_VERSION        LITERAL1
+TIME_SECOND             LITERAL1
+TIME_MINUTE             LITERAL1
+TIME_HOUR               LITERAL1
+TIME_DAY                LITERAL1
+DHT_INTERVAL            LITERAL1
+HYGROMETER_INTERVAL     LITERAL1
+PHOTOSENSOR_INTERVAL    LITERAL1
+STATUS_TEMP_ALRT        LITERAL1
+STATUS_HUMI_ALRT        LITERAL1
+STATUS_HYGR_ALRT        LITERAL1
+STATUS_PHOT_ALRT        LITERAL1
+STATUS_TEMP_WARN        LITERAL1
+STATUS_HUMI_WARN        LITERAL1
+STATUS_HYGR_WARN        LITERAL1
+STATUS_PHOT_WARN        LITERAL1
+STATUS_TEMP_GOOD        LITERAL1
+STATUS_HUMI_GOOD        LITERAL1
+STATUS_HYGR_GOOD        LITERAL1
+STATUS_PHOT_GOOD        LITERAL1
+HYGROMETER_SENSOR_PIN   LITERAL1
+PHOTOSENSOR_PIN         LITERAL1
+DHT_PIN                 LITERAL1
+LCD_RS_PIN              LITERAL1
+LCD_ENABLE_PIN          LITERAL1
+LCD_D4_PIN              LITERAL1
+LCD_D5_PIN              LITERAL1
+LCD_D6_PIN              LITERAL1
+LCD_D7_PIN              LITERAL1
+LED_WORKING_PIN         LITERAL1
+LED_WARNING_PIN         LITERAL1
+LED_ALERT_PIN           LITERAL1
+LED_ALLOK_PIN           LITERAL1
+LED_PHOTOSENSOR_PIN     LITERAL1
+
+DHT_TYPE                LITERAL1
+LCD_CLEAR               LITERAL1
+LCD_CURSOR              LITERAL1
+LCD_PRINT               LITERAL1
+
+DHT11                   LITERAL1
+DHT21                   LITERAL1
+DHT22                   LITERAL1
+
+DHT_MIN_INTERVAL        LITERAL1
+DHT_MAX_CYCLES          LITERAL1
